@@ -8,7 +8,7 @@ OPENAI_API_KEY=XXXXXX
 streamlit run main.py
 ```
 
-# Apprendre a utiliser l'api de gpt
+# Apprendre a utiliser Dalle-3
 
 python3 -m venv env
 
