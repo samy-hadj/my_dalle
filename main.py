@@ -15,7 +15,7 @@ def main():
     st.sidebar.title("Configuration")
     theme = st.sidebar.selectbox("Choose Theme", ["Light", "Dark"])
     image_size = st.sidebar.selectbox("Image Size", ["256x256", "512x512", "1024x1024"])
-    quality = st.sidebar.selectbox("Quality", ["Standard", "High", "Ultra"])
+    quality = st.sidebar.selectbox("Quality", ["Standard", "hd"])
 
     # Apply Theme
     if theme == "Dark":
